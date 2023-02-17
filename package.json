@@ -1,0 +1,22 @@
+{
+  "name": "com.spellboundar.color-selection",
+  "version": "1.0.0",
+  "displayName": "Color Selection",
+  "description": "A UI tool element for selecting a color while in gameplay.",
+  "unity": "2019.1",
+  "keywords": [
+    "color",
+    "ui"
+  ],
+  "author": "Chris Monteferrante <chris@spellboundar.com>",
+  "type": "tool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpellBoundAR-Packages/color-selection.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpellBoundAR-Packages/color-selection/issues"
+  },
+  "homepage": "https://github.com/SpellBoundAR-Packages/color-selection#readme"
+}
