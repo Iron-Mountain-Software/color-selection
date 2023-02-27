@@ -1,6 +1,6 @@
 {
   "name": "com.spellboundar.color-selection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Color Selection",
   "description": "A UI tool element for selecting a color while in gameplay.",
   "unity": "2019.1",
