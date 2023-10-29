@@ -1,6 +1,6 @@
 {
   "name": "com.iron-mountain.color-selection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Color Selection",
   "author": "Chris Monteferrante <ludachrismonte@gmail.com>",
   "unity": "2019.1",
@@ -33,7 +33,7 @@
     },
     {
       "type": "npm",
-      "url": "https://github.com/Iron-Mountain-Software/color-selection"
+      "url": "https://www.npmjs.com/package/com.iron-mountain.color-selection"
     }
   ],
   "dependencies": {}
