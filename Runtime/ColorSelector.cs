@@ -21,13 +21,14 @@ namespace SpellBoundAR.ColorSelection
         [Header("Cache")]
         private RectTransform _rectTransform;
         private Image _image;
-        private Color _selectedColor;
+        private Color _selectedColor = Color.white;
 
         private RectTransform RectTransform
         {
             get
             {
                 if (!_rectTransform) _rectTransform = GetComponent<RectTransform>();
+                _rectTransform.rotation = Quaternion.identity;
                 return _rectTransform;
             }
         }

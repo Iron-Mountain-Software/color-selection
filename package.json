@@ -1,22 +1,40 @@
 {
-  "name": "com.spellboundar.color-selection",
+  "name": "com.iron-mountain.color-selection",
   "version": "1.0.1",
   "displayName": "Color Selection",
-  "description": "A UI tool element for selecting a color while in gameplay.",
+  "author": "Chris Monteferrante <ludachrismonte@gmail.com>",
   "unity": "2019.1",
+  "type": "tool",
+  "license": "MIT",
+  "homepage": "https://github.com/Iron-Mountain-Software/color-selection#readme",
+  "bugs": {
+    "type": "git",
+    "url": "https://github.com/Iron-Mountain-Software/color-selection/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iron-Mountain-Software/color-selection.git"
+  },
+  "description": "A UI tool element for selecting a color while in gameplay.",
+  "useCases": [],
+  "directions": null,
   "keywords": [
     "color",
     "ui"
   ],
-  "author": "Chris Monteferrante <chris@spellboundar.com>",
-  "type": "tool",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SpellBoundAR-Packages/color-selection.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SpellBoundAR-Packages/color-selection/issues"
-  },
-  "homepage": "https://github.com/SpellBoundAR-Packages/color-selection#readme"
+  "sources": [
+    {
+      "type": "git",
+      "url": "https://github.com/Iron-Mountain-Software/color-selection"
+    },
+    {
+      "type": "itch.io",
+      "url": "https://iron-mountain.itch.io/color-selection"
+    },
+    {
+      "type": "npm",
+      "url": "https://github.com/Iron-Mountain-Software/color-selection"
+    }
+  ],
+  "dependencies": {}
 }

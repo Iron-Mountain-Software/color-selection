@@ -6,14 +6,19 @@ namespace SpellBoundAR.ColorSelection
     [RequireComponent(typeof(Graphic))]
     public class SelectedColorGraphic : MonoBehaviour
     {
+        [SerializeField] private Graphic graphic;
         [SerializeField] private ColorSelector colorSelector;
-        
-        [Header("Cache")]
-        private Graphic _graphic;
 
         private void Awake()
         {
-            _graphic = GetComponent<Graphic>();
+            if (!graphic) graphic = GetComponent<Graphic>();
+            if (!colorSelector) colorSelector = GetComponentInParent<ColorSelector>();
+        }
+        
+        private void OnValidate()
+        {
+            if (!graphic) graphic = GetComponent<Graphic>();
+            if (!colorSelector) colorSelector = GetComponentInParent<ColorSelector>();
         }
 
         private void OnEnable()
@@ -29,18 +34,9 @@ namespace SpellBoundAR.ColorSelection
 
         private void Refresh()
         {
-            if (!_graphic) return;
-            _graphic.color = colorSelector ? colorSelector.SelectedColor : Color.clear;
+            if (graphic) graphic.color = colorSelector 
+                ? colorSelector.SelectedColor
+                : Color.clear;
         }
-
-#if UNITY_EDITOR
-        
-        private void OnValidate()
-        {
-            if (!colorSelector) colorSelector = GetComponentInParent<ColorSelector>();
-        }
-        
-#endif
-        
     }
 }

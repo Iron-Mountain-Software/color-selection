@@ -1,6 +1,6 @@
 {
-    "name": "com.spellboundar.color-selection",
-    "rootNamespace": "SpellBoundAR.ColorSelection",
+    "name": "com.iron-mountain.color-selection",
+    "rootNamespace": "IronMountain.ColorSelection",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
